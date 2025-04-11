@@ -2,15 +2,15 @@ document.addEventListener("DOMContentLoaded", function () {
     
     var products = [
         { name: "Laptop", image: "./image/laptop.jpg" },
-        { name: "Smartphone", image: "./image/smartphone.jpg" },
-        { name: "Headphones", image: "./image/headphones.jpg" },
-        { name: "Keyboard", image: "./image/keyboard.jpg" },
-        { name: "Mouse", image: "./image/mouse.jpg" },
-        { name: "Monitor", image: "./image/monitor.jpg" },
-        { name: "Printer", image: "./image/printer.jpg" },
-        { name: "Camera", image: "./image/camera.jpg" },
-        { name: "Tablet", image: "./image/tablet.jpg" },
-        { name: "Smartwatch", image: "./image/smartwatch.jpg" }
+        { name: "Smartphone", image: "./image/Smartphone.jpg" },
+        { name: "Headphones", image: "./image/Headphones.jpg" },
+        { name: "Keyboard", image: "./image/Keyboard.jpg" },
+        { name: "Mouse", image: "./image/Mouse.jpg" },
+        { name: "Monitor", image: "./image/Monitor.jpg" },
+        { name: "Printer", image: "./image/Printer.jpg" },
+        { name: "Camera", image: "./image/Camera.jpg" },
+        { name: "Tablet", image: "./image/Tablet.jpg" },
+        { name: "Smartwatch", image: "./image/Smartwatch.jpg" }
     ];
 
 
