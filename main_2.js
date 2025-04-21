@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    
+
     var products = [
         { name: "Laptop", image: "./image/laptop.jpg" },
         { name: "Smartphone", image: "./image/Smartphone.jpg" },
@@ -14,12 +14,12 @@ document.addEventListener("DOMContentLoaded", function () {
     ];
 
 
-    
+
     var productCards = document.getElementById('productCards');
 
-    
+
     products.forEach(function (product) {
-        
+
         var cardHTML = `
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
             </div>
         `;
-       
+
         productCards.insertAdjacentHTML('beforeend', cardHTML);
     });
 
